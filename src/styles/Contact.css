@@ -33,3 +33,12 @@ form button {
 .contact-container {
     margin-top: 5%;
 }
+
+.my-email {
+    background-color: aliceblue;
+    border-radius: 20%;
+    text-align: center;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}

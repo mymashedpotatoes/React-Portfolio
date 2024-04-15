@@ -71,6 +71,9 @@ function Contact() {
           </div>
         )}
       </div>
+      <div className='my-email'>
+        <p>or contact me now at ella.gaul@gmail.com</p>
+      </div>
     </div>
   );
 }
