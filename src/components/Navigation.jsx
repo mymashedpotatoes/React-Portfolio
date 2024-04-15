@@ -1,5 +1,4 @@
 import React from 'react';
-import '../styles/Navigation.css';
 import { Link } from 'react-router-dom';
 import Navbar from './UI/Navbar';
 
@@ -7,16 +6,16 @@ const Navigation = () => {
     return (
         <Navbar
             links={[
-                <Link key={1} className="nav-link text-light" to="/">
+                <Link key={1} className="nav-link text-light nav" to="/">
                     About Me
                 </Link>,
-                <Link key={2} className="nav-link text-light" to="/portfolio">
+                <Link key={2} className="nav-link text-light nav" to="/portfolio">
                     Portfolio
                 </Link>,
-                <Link key={2} className="nav-link text-light" to="/contact">
+                <Link key={3} className="nav-link text-light nav" to="/contact">
                     Contact
                 </Link>,
-                <Link key={2} className="nav-link text-light" to="/resume">
+                <Link key={4} className="nav-link text-light nav" to="/resume">
                     Resume
                 </Link>,
             ]}

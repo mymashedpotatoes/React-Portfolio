@@ -1,0 +1,35 @@
+form button {
+    background-color: #6c757c;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 1%;
+    margin: 1%;
+    border-radius: 20%;
+}
+
+.form {
+    margin: 20px;
+}
+
+.form input {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+.form textarea {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+.container {
+    background-color: aliceblue;
+    border-radius: 10%;
+}
+
+.contact-container {
+    margin-top: 5%;
+}
