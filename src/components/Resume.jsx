@@ -4,7 +4,7 @@ import '../styles/Resume.css';
 const Resume = () => {
   return (
     <div>
-        <p>Resume page</p>
+        <p>downloadable resume and list of dev proficiencies</p>
     </div>
   );
 };
