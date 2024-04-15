@@ -46,7 +46,7 @@ const Portfolio = () => {
                     </div>
                 </div>
                 <div className="box-flex box-flex-center">
-                <img className="box-img" src="./images/1.png" alt="PWA text editor" title="PWA text editor"></img>
+                <img className="box-img" src="./images/5.png" alt="PWA text editor" title="PWA text editor"></img>
                     <div className="box-caption">
                         <a href='https://pwa-text-editor-fkx5.onrender.com/'>PWA Text Editor</a>
                         <a href="https://github.com/mymashedpotatoes/PWA-Text-Editor" target="_blank" rel="noopener noreferrer">

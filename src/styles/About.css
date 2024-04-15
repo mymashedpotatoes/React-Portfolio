@@ -1,0 +1,24 @@
+h3 {
+    text-align: center;
+}
+
+img {
+    max-width: 200px;
+    align-self: center;
+    display: flex;
+    margin-right: 60px;
+    margin-left: 60px;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.text-content {
+    background-color: aliceblue;
+    padding: 5%;
+    border-radius: 5%;
+}
