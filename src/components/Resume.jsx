@@ -2,6 +2,7 @@ import React from 'react';
 import '../styles/Resume.css';
 import MyResume from '../utils/MyResume.pdf'
 
+// resume component
 const Resume = () => {
   return (
     <div className='resume-container'>

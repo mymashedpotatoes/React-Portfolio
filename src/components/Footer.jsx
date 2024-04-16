@@ -3,6 +3,7 @@ import '../styles/Footer.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin, faInstagram } from '@fortawesome/free-brands-svg-icons';
 
+// footer component
 const Footer = () => {
   return (
     <div className='footer-container'>

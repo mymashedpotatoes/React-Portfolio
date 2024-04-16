@@ -3,12 +3,15 @@ import '../styles/Contact.css';
 
 import { validateEmail } from '../utils/helpers';
 
+// contact component
 function Contact() {
+  // set up useState's for each input
   const [email, setEmail] = useState('');
   const [name, setName] = useState('');
   const [message, setMessage] = useState('');
   const [errorMessage, setErrorMessage] = useState('');
 
+  // inputChange function
   const handleInputChange = (e) => {
     const { target } = e;
     const inputType = target.name;
@@ -23,6 +26,7 @@ function Contact() {
     }
   };
 
+  // formSubmit function
   const handleFormSubmit = (e) => {
     e.preventDefault();
 
@@ -37,6 +41,7 @@ function Contact() {
     setEmail('');
   };
 
+  // the contact form itself
   return (
     <div className='contact-container'>
       <div className="container text-center">

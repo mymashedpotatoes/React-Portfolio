@@ -1,6 +1,7 @@
 import React from 'react';
 import '../styles/About.css';
 
+// about component
 const About = () => {
   return (
     <div>
