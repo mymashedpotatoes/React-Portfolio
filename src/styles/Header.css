@@ -1,0 +1,17 @@
+header img {
+    max-width: 100px;
+}
+header h1 {
+    text-align: center;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+}
+
+header p {
+    font-size: 3.5rem;
+}
+
